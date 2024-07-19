@@ -256,7 +256,7 @@ def create_item():
 @app.route('/update_item/<int:id_item>', methods=['POST'])
 def update_item(id_item):
     data = request.json
-    id_item = data ['id_item']
+    #id_item = data ['id_item']
     nombre = data['nombre']
     detalle = data['detalle']
     tipo_categoria = data['tipo_categoria']
